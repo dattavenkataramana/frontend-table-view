@@ -1,4 +1,4 @@
-.container {
+/* .container {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
@@ -55,5 +55,109 @@
   
   .btn:hover {
     background-color: #0056b3;
+  }
+   */
+
+   /* JobOrder.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #cbc9c9;
+    color: #333;
+  }
+  
+  .container123 {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .form-container {
+    background: #7ff1f3;
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 20px 0;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  input, select {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input:focus, select:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  .btn {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .table-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .job-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .job-table th, .job-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .job-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .job-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .job-table tr:nth-child(even) {
+    background-color: #f9f9f9;
   }
   
