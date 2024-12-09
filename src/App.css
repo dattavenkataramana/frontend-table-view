@@ -250,4 +250,7 @@ h1, h2 {
   .employee-table {
     font-size: 12px;
   }
+  .submit-btn{
+    margin-bottom: 10px;
+  }
 }
